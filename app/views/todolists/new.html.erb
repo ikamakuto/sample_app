@@ -5,6 +5,7 @@
     <%= message %>
   <% end %>
 <% end %>
+
 <%= form_with model: @list, url:'/todolists', local:true do |f| %>
   <h4>タイトル</h4>
   <%= f.text_field :title %>

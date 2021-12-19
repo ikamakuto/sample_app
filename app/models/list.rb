@@ -1,5 +1,6 @@
 class List < ApplicationRecord
-  attachment :image
+  attachment :
+  
   validates :title, presence: true
   validates :body, presence: true
   validates :image, presence: true
